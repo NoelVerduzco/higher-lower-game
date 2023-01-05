@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <title>Higher Lower</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Higher - Lower</h1>
+        <p>Your goal for this game is to correctly guess the random number between a lowest and highest number.</p>
+        <div id="range">
+            <!--THE RANGE OF GUESSES WILL BE APPENDED HERE-->
+        </div>
+        <form>
+            <label for="guess">Your guess:</label>
+            <input type="text" id="guess">
+            <button type="button" onclick="validate()">Guess</button>
+        </form>
+        <p id="message">
+            <!--ALL MESSAGES WILL BE APPENDED HERE-->
+        </p>
+    </div>
+    <script src="higher-lower-script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
